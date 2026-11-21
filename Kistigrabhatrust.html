@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ksitigarbha Trust</title>
+
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    background: #100b0b;
+    color: #e8d6ad;
+}
+
+/* BACKGROUND */
+
+.hero {
+    min-height: 100vh;
+    position: relative;
+    padding: 70px 20px;
+    background:
+        linear-gradient(
+            rgba(10, 5, 7, 0.76),
+            rgba(10, 5, 7, 0.90)
+        ),
+        url('image_ba26d85.jpg');
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* MAIN CONTENT */
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+/* HEADING */
+
+.heading {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: clamp(3rem, 8vw, 6rem);
+    color: #d8b56c;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    text-shadow: 0 0 25px rgba(198, 153, 65, 0.2);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #c7b38b;
+    margin-bottom: 35px;
+}
+
+/* DECORATIVE LINE */
+
+.divider {
+    width: 160px;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        transparent,
+        #c8a45c,
+        transparent
+    );
+    margin: 25px auto 55px;
+}
+
+/* PROFILE LAYOUT */
+
+.profiles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    max-width: 850px;
+    margin: auto;
+}
+
+/* PROFILE CARD */
+
+.profile {
+    padding: 35px 25px;
+    border: 1px solid rgba(193, 158, 94, 0.45);
+    background: rgba(23, 12, 13, 0.76);
+    backdrop-filter: blur(8px);
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.profile:hover {
+    border-color: #d5b36b;
+    transform: translateY(-5px);
+}
+
+/* IMAGE */
+
+.profile-image {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto 25px;
+    border-radius: 50%;
+    border: 2px solid #b99a5b;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* NAME */
+
+.name {
+    font-size: 2rem;
+    color: #e1c27e;
+    margin-bottom: 8px;
+}
+
+/* POSITION */
+
+.position {
+    font-size: 1.15rem;
+    color: #c5af88;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+/* INFORMATION */
+
+.info {
+    text-align: left;
+    border-top: 1px solid rgba(194, 159, 96, 0.25);
+    padding-top: 18px;
+}
+
+.info p {
+    margin: 12px 0;
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.info strong {
+    color: #d5b16a;
+    font-weight: 600;
+}
+
+/* CONTACT */
+
+.contact {
+    margin-top: 22px;
+    display: inline-block;
+    color: #e1c27e;
+    text-decoration: none;
+    border: 1px solid #9c7c45;
+    padding: 10px 24px;
+    transition: 0.3s;
+}
+
+.contact:hover {
+    background: #9c7c45;
+    color: #130d0d;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 65px;
+    font-size: 1rem;
+    color: #9e8a69;
+    letter-spacing: 2px;
+}
+
+.footer-symbol {
+    font-size: 1.7rem;
+    color: #c9a75f;
+    margin-bottom: 15px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 650px) {
+
+    .hero {
+        background-attachment: scroll;
+        padding: 55px 15px;
+    }
+
+    .profiles {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .profile {
+        max-width: 400px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .subtitle {
+        font-size: 0.85rem;
+        letter-spacing: 3px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="container">
+
+    <h1 class="heading">Ksitigarbha Trust</h1>
+
+    <p class="subtitle">Compassion • Wisdom • Service</p>
+
+    <div class="divider"></div>
+
+    <div class="profiles">
+
+        <!-- SPIRITUAL WORKER 1 -->
+
+        <div class="profile">
+
+            <div class="profile-image">
+                <img src="Screenshot 2026-11-21 125927_edited.jpg" alt="Spiritual Worker">
+            </div>
+
+            <h2 class="Name">Ankit Dash</h2>
+
+            <p class="position">
+                Current Spiritual Worker
+            </p>
+
+            <div class="info">
+
+                <p>
+                    <strong>Education:</strong>
+                    Pharmacy
+                </p>
+
+            </div>
+
+<div class="contact">
+  <span style="font-family: sans-serif; font-weight: bold;">+91 70163 03006</span>
+
+</div>
+        </div>
+
+
+        <!-- SPIRITUAL WORKER 2 -->
+
+        <div class="profile">
+
+            <div class="profile-image">
+                <img src="Screenshot 2026-11-21 131105_edited.jpg" alt="Spiritual Worker">
+            </div>
+
+            <h2 class="name">DhammaMitra Mandarav </h2>
+
+            <p class="position">
+                Current Spiritual Leader
+            </p>
+
+            <div class="info">
+
+                <p>
+                    <strong>Education:</strong>
+                    Computer Science Engineer AI & ML
+                </p>
+
+            </div>
+
+           <div class="contact">
+    <span style="font-family: sans-serif; font-weight: bold;">+91 9924509238</span>
+
+</div>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer-symbol">꧁༺☸༻꧂</div>
+
+        <p>May all beings benefit from wisdom and compassion.</p>
+
+        <p style="margin-top:12px;">
+            © Ksitigarbha Trust
+        </p>
+
+    </footer>
+
+</div>
+
+</section>
+
+</body>
+</html>
